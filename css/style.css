@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "BootsAndSpurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+body {
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+.logo,
+h2 {
+  font-family: "BootsAndSpurs", Verdana, Geneva, Tahoma, sans-serif;
+}
+.test h2 {
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+header,
+footer {
+  background-color: #202020;
+  color: white;
+}
+footer {
+  text-align: center;
+}
+header a {
+  color: white;
+}
+.cta {
+  background-color: red;
+  color: white;
+  font-size: 1.5em;
+}
+.reviews {
+  background-color: grey;
+}
+
+.futere-products {
+  background-color: lightgrey;
+}
+
+.cta-sale {
+  background-color: green;
+}
