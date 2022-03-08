@@ -40,3 +40,20 @@ header a {
 .cta-sale {
   background-color: green;
 }
+
+/*home page */
+
+.front {
+  background-image: url("../images/home-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.reviews img {
+  border-radius: 50%;
+}
+.selling-point-img {
+  border-radius: 50px 50px 50px 50px;
+}
