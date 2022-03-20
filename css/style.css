@@ -57,3 +57,10 @@ header a {
 .selling-point-img {
   border-radius: 50px 50px 50px 50px;
 }
+
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
