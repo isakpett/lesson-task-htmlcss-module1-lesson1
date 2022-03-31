@@ -13,6 +13,13 @@ h2 {
 .test h2 {
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
+header {
+  display: flex;
+  align-items: center;
+}
+nav {
+  margin-left: 25px;
+}
 header,
 footer {
   background-color: #202020;
@@ -23,22 +30,44 @@ footer {
 }
 header a {
   color: white;
+  padding: 10px;
+}
+nav li {
+  display: inline-block;
+}
+nav ul {
+  padding: 0px;
+}
+/* links */
+a {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
 }
 .cta {
   background-color: red;
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
 }
 .reviews {
   background-color: grey;
 }
 
-.futere-products {
+.futere__products {
   background-color: lightgrey;
 }
 
 .cta-sale {
   background-color: green;
+}
+.cta--small {
+  padding: 8px 40px;
+  font-size: 0.8em;
 }
 
 /*home page */
@@ -50,17 +79,64 @@ header a {
   min-height: 70vh;
   background-position-x: right;
   background-position-y: bottom;
+  position: relative;
 }
+
 .reviews img {
   border-radius: 50%;
+  width: 80px;
+  float: right;
+}
+
+.selling-point {
+  margin: 50px auto;
+}
+.selling-point,
+.reviews__content {
+  max-width: 1000px;
+
+  display: flex;
+}
+
+.selling-point > *,
+.reviews__content > * {
+  flex: 1;
+}
+
+.reviews {
+  text-align: center;
+  padding: 50px;
+}
+.reviews__content div {
+  margin: 50px;
+}
+.reviews__content {
+  margin: auto;
+  text-align: left;
+}
+.reviews__name {
+  display: block;
 }
 .selling-point-img {
   border-radius: 50px 50px 50px 50px;
 }
-
+.front__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+}
 input,
 select,
 textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+}
+
+/* guitars */
+
+main {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
 }

@@ -25,7 +25,7 @@
       <a href="index.html" class="logo">Guitar kings</a>
       <nav>
         <ul>
-          <li><a href="index.html">home</a></li>
+          <li><a href="index.html" class="active">home</a></li>
           <li><a href="guitars.html">Guitars</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
@@ -33,8 +33,10 @@
     </header>
     <main>
       <section class="front">
-        <h1>authentic Handmade Guitars</h1>
-        <a class="cta">view guitars</a>
+        <div class="front__content">
+          <h1>authentic Handmade Guitars</h1>
+          <a class="cta" href="guitars.html">view guitars</a>
+        </div>
       </section>
       <section class="selling-point">
         <div>
@@ -48,56 +50,65 @@
           </ul>
           <p>hands strmning guitar</p>
         </div>
-        <img
-          class="selling-point-img"
-          src="images/home-info.jpg"
-          alt="Hand Strumming Guitars"
-        />
+        <div>
+          <img
+            class="selling-point-img"
+            src="images/home-info.jpg"
+            alt="Hand Strumming Guitars"
+          />
+        </div>
       </section>
       <section class="reviews">
         <h2>rewiews</h2>
-        <div>
-          <p>
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            natus magnam blanditiis tenetur quod, qui nisi exercitationem saepe
-            facere odio, iure nostrum pariatur libero eaque. Ad ipsum soluta
-            aspernatur vel!
-          </p>
-          <img src="images/review-bio.jpg" alt="profile pic of bob willis" />
-          <p>-bob</p>
-        </div>
-        <div>
-          <p>
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            natus magnam blanditiis tenetur quod, qui nisi exercitationem saepe
-            facere odio, iure nostrum pariatur libero eaque. Ad ipsum soluta
-            aspernatur vel!
-          </p>
-          <img src="images/review-bio2.jpg" alt="profile pic" />
-          <p>-sally</p>
+        <div class="reviews__content">
+          <div>
+            <p>
+              "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae natus magnam blanditiis tenetur quod, qui nisi
+              exercitationem saepe facere odio, iure nostrum pariatur libero
+              eaque. Ad ipsum soluta aspernatur vel!
+              <span class="reviews__name">-bob</span>
+            </p>
+            <img src="images/review-bio.jpg" alt="profile pic of bob willis" />
+          </div>
+          <div>
+            <p>
+              "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae natus magnam blanditiis tenetur quod, qui nisi
+              exercitationem saepe facere odio, iure nostrum pariatur libero
+              eaque. Ad ipsum soluta aspernatur vel!<span class="reviews__name"
+                >sally</span
+              >
+            </p>
+            <img src="images/review-bio2.jpg" alt="profile pic" />
+          </div>
         </div>
       </section>
       <section class="futere">
         <h2>wiew Our Guitars</h2>
-        <div class="futere-products">
+        <div class="futere__products">
           <img src="images/product.jpg" alt="adruondack red" />
           <h3>adirondack red</h3>
           <p>500$</p>
-          <a href="products/adirondack-red.html" class="cta cta-sale"
+          <a href="products/adirondack-red.html" class="cta cta-sale cta--small"
             >on sale</a
           >
         </div>
-        <div class="futere-products">
+        <div class="futere__products">
           <img src="images/product.jpg" alt="adruondack red" />
           <h3>adirondack red</h3>
           <p>500$</p>
-          <a href="./products/adirondack-red.html" class="cta">view</a>
+          <a href="./products/adirondack-red.html" class="cta cta--small"
+            >view</a
+          >
         </div>
-        <div class="futere-products">
+        <div class="futere__products">
           <img src="images/product.jpg" alt="adruondack red" />
           <h3>adirondack red</h3>
           <p>500$</p>
-          <a href="./products/adirondack-red.html" class="cta">view</a>
+          <a href="./products/adirondack-red.html" class="cta cta--small"
+            >view</a
+          >
         </div>
       </section>
     </main>
